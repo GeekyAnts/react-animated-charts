@@ -7,7 +7,7 @@ class DisperseWord extends Component {
         let transitionState = [];
         const rotateG = Math.random() > 0.5 ? Math.random() * 120 : Math.random() * -120;
         transitionState.push([{
-            start: 'self',
+            start: 0,
             duration: 600,
             easing: "easeInOut",
             properties: [{
@@ -68,7 +68,7 @@ class DisperseWord extends Component {
             const xFactor = (Math.random() * 8000 * plusOrMinus) / 2;
             const yFactor = (Math.random() * 1500 * plusOrMinus) / 2;
             transitionState.push([{
-                start: 'self',
+                start: this.refs.start,
                 duration: 600,
                 name: 'first',
                 easing: "easeInOut",

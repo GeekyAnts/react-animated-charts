@@ -1,7 +1,11 @@
 .container{
-    height: 100%;
-    width: 100%;
-    // background-color:rgba(18, 18, 18, 0.4);
+    height: 100vh;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    // width: 100vh;
+    // background-color:rgb(18, 18, 18);
+    // overflow: hidden;
 }
 .topBar{
     height: 50px;
@@ -48,4 +52,14 @@
 }
 .disperse-tagG{
     color: #ffffff;
+}
+
+
+.circleButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: aqua;
+    border-width: 4px;
+    border-color: black;
 }
