@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
 import React, { useEffect, useRef } from 'react'
-
+import AnimatedGraph from "../AnimatedGraph";
 let graph = {}
 let nodeA = [];
 for (let j = 0; j < 50; j++) { nodeA.push({ "country": j, "code": j }) }
@@ -34,6 +34,7 @@ const Root = () => {
 
     return (
         <div>
+            <AnimatedGraph />
             <div ref={leftCont} />
         </div>)
 }
