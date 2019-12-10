@@ -82,8 +82,8 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
-    "start": "webpack --watch",
-    "build": "webpack --mode production",
+    "start": "NODE_ENV=development BABEL_ENV=development webpack --watch",
+    "build": "NODE_ENV=production BABEL_ENV=production webpack",
     "test": "node scripts/start.js"
   },
   "eslintConfig": {

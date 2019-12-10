@@ -2,6 +2,51 @@
 
 ## Install
 
-Install the component using NPM:
+Install the package using npm:
 
-### `npm i animated-web`
+### `npm i react-animated-web`
+
+
+## Force-Directed Graph
+
+```
+import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
+```
+
+```
+<ForceDirectedGraph
+    drag={true}     // Enable Mouse Drag (true/false)
+    nodes={node}     // Graph Nodes (Array of Object)
+    links={link}     // Graph Links (Array of Object)
+    alphaDecay={0.01}     // Alpha Decay (Number Range - [0,1])
+    animationDelay={10}     // Animation Delay Time (Time in `ms`)
+    animationStart={0}     // Animation Start time (Time in `ms`)
+    height={500}     // Height of Graph (Number)
+    width={500}     // Width of Graph (Number)
+    strength={0.4}     // Strength of Graph (Number Range - [0,1])
+    distance={10}      // Distance between each node (Number)
+/>
+```
+
+
+## Hamiltonian Graph
+
+```
+import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
+```
+
+```
+<HamiltonianGraph
+    drag={true}     // Enable Mouse Drag (true/false)
+    nodes={node}     // Graph Nodes (Array of Object)
+    links={link}     // Graph Links (Array of Object)
+    alphaDecay={0.01}     // Alpha Decay (Number Range - [0,1])
+    animationDelay={10}     // Animation Delay Time (Time in `ms`)
+    animationStart={0}     // Animation Start time (Time in `ms`)
+    height={500}     // Height of Graph (Number)
+    width={500}     // Width of Graph (Number)
+    strength={0.4}     // Strength of Graph (Number Range - [0,1])
+    distance={10}      // Distance between each node (Number)
+/>
+```
+
