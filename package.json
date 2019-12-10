@@ -1,6 +1,6 @@
 {
   "name": "animated-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React animated chart library by using D3.js",
   "main": "build/index.js",
   "peerDependencies": {
@@ -30,7 +30,7 @@
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack --mode production",
-    "test": "react-scripts test",
+    "test": "react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
