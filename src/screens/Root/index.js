@@ -1,6 +1,11 @@
 import * as d3 from 'd3';
 import React, { useEffect, useRef } from 'react'
-import AnimatedGraph from "../../AnimatedGraph.js";
+
+import {
+    node,
+    link
+} from "../../utils/data"
+import ForceDirectedGraph from "../../ForcedGraph/ForceDirectedGraph";
 let graph = {}
 let nodeA = [];
 for (let j = 0; j < 50; j++) { nodeA.push({ "country": j, "code": j }) }
@@ -32,10 +37,26 @@ const Root = () => {
 
     })
 
+
+    let graph = {}
+    let nodeA = [];
+    for (let j = 0; j < 50; j++) { nodeA.push({ "country": j, "code": j }) }
+    graph.nodes = nodeA;
+    const linkTest = [];
+    nodeA.map((node, indexA) => linkTest.push({ "target": (indexA + 1) < graph.nodes.length ? indexA + 1 : 0, "source": indexA }))
+    nodeA.map((node, indexA) => linkTest.push({ "target": (indexA + 10) < graph.nodes.length ? indexA + 10 : indexA - (graph.nodes.length - 10), "source": indexA }))
+    let i = 0
+
     return (
         <div>
-            <AnimatedGraph />
-            <div ref={leftCont} />
+            <ForceDirectedGraph
+                drag={true}
+                links={link}
+                nodes={node}
+                alphaDecay={0.01}
+                animationDelay={10}
+                animationStart={0}
+            />
         </div>)
 }
 export default Root;
