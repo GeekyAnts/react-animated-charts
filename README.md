@@ -12,4 +12,6 @@ Install the component using NPM:
 ```npm i animated-web
 dvbjksb v
 vcew,bv ,
-v ,ms
+v ,ms`
+evnbk
+evewv
