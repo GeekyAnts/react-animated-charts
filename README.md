@@ -9,7 +9,7 @@ Install the component using NPM:
 
 ## Force-Directed Graph
 
-`npm i animated-web
+```npm i animated-web
 dvbjksb v
 vcew,bv ,
-v ,ms`
+v ,ms```
