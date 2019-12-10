@@ -1,8 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Animated Charts
 
-## Available Scripts
+## Install
 
-In the project directory, you can run:
+Install the component using NPM:
 
 ### `yarn start`
 
