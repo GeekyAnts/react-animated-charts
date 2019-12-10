@@ -9,7 +9,7 @@ Install the package using npm:
 
 ## Force-Directed Graph
 
-![](./src/assets/Images/HGraph.gif)
+![](./src/assets/Images/FDGraph.gif)
 
 ```
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
@@ -32,6 +32,8 @@ import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
 
 
 ## Hamiltonian Graph
+
+![](./src/assets/Images/HGraph.gif)
 
 ```
 import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
