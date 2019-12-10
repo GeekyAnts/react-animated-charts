@@ -5,7 +5,7 @@ import {
     node,
     link
 } from "../../utils/data"
-import HamiltonianGraph from "../../ForcedGraph/HamiltonianGraph";
+import BubbleChart from "../../BubbleChart/BubbleChart.js";
 let graph = {}
 let nodeA = [];
 for (let j = 0; j < 50; j++) { nodeA.push({ "country": j, "code": j }) }
@@ -49,17 +49,17 @@ const Root = () => {
 
     return (
         <div>
-            <HamiltonianGraph
-                drag={true}
-                height={700}
-                width={1400}
-                linkFactor={10}
-                noOfNode={50}
-                alphaDecay={0}
-                animationDelay={100}
-                animationStart={0}
-                strength={0.4}
-                distance={10}
+            <BubbleChart
+            // drag={true}
+            // height={700}
+            // width={1400}
+            // linkFactor={10}
+            // noOfNode={50}
+            // alphaDecay={0}
+            // animationDelay={100}
+            // animationStart={0}
+            // strength={0.4}
+            // distance={10}
             />
         </div>)
 }
