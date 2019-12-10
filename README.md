@@ -50,3 +50,9 @@ import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
 />
 ```
 
+### Note
+
+```
+const node = [{tag: "_name",id: "_id"}...]
+const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
+```

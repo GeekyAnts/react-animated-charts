@@ -1,11 +1,24 @@
 {
   "name": "react-animated-web",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "React animated chart library by using D3.js",
   "main": "build/index.js",
   "peerDependencies": {
     "react": ">=15.0.1"
   },
+  "keywords": [
+    "react",
+    "animation",
+    "web-animations-api",
+    "d3",
+    "d3.js",
+    "chart",
+    "graph",
+    "react-animated-web",
+    "react-animation",
+    "web-animation",
+    "npm"
+  ],
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
