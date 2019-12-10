@@ -4,12 +4,12 @@ import React, { useEffect, useRef } from 'react'
 let graph = {}
 let nodeA = [];
 for (let j = 0; j < 50; j++) { nodeA.push({ "country": j, "code": j }) }
-graph.nodes = nodeA
+graph.nodes = nodeA;
 const linkTest = [];
 nodeA.map((node, indexA) => linkTest.push({ "target": (indexA + 1) < graph.nodes.length ? indexA + 1 : 0, "source": indexA }))
 nodeA.map((node, indexA) => linkTest.push({ "target": (indexA + 10) < graph.nodes.length ? indexA + 10 : indexA - (graph.nodes.length - 10), "source": indexA }))
 let i = 0
-const AnimatedGraph = () => {
+const AnimatedGraph = props => {
     const diva = useRef(null);
     let linksA = [];
     const { innerWidth: width, innerHeight: height } = window;
@@ -106,6 +106,6 @@ const AnimatedGraph = () => {
 
     })
 
-    return <canvas ref={diva} width={width} height={height} />;
+    return (<canvas ref={diva} width={width} height={height} />);
 }
 export default AnimatedGraph;
