@@ -4,6 +4,9 @@ import React, { useEffect, useRef } from 'react'
 
 const { innerWidth: widthW, innerHeight: heightW } = window;
 
+let i = 0;
+let linksRender = [];
+
 const ForceDirectedGraph = props => {
     const diva = useRef(null);
     const {
@@ -23,9 +26,6 @@ const ForceDirectedGraph = props => {
         links: links,
         nodes: nodes
     }
-
-    let i = 0;
-    let linksRender = [];
 
     useEffect(() => {
         const canvas = d3.select(diva.current)

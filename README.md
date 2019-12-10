@@ -38,8 +38,8 @@ import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
 ```
 <HamiltonianGraph
     drag={true}     // Enable Mouse Drag (true/false)
-    nodes={node}     // Graph Nodes (Array of Object)
-    links={link}     // Graph Links (Array of Object)
+    noOfNode={50}     // Graph Nodes (Number)
+    linkFactor={10}     // Graph Links (Number)
     alphaDecay={0.01}     // Alpha Decay (Number Range - [0,1])
     animationDelay={10}     // Animation Delay Time (Time in `ms`)
     animationStart={0}     // Animation Start time (Time in `ms`)

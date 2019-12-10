@@ -5,7 +5,7 @@ import {
     node,
     link
 } from "../../utils/data"
-import ForceDirectedGraph from "../../ForcedGraph/ForceDirectedGraph";
+import HamiltonianGraph from "../../ForcedGraph/HamiltonianGraph";
 let graph = {}
 let nodeA = [];
 for (let j = 0; j < 50; j++) { nodeA.push({ "country": j, "code": j }) }
@@ -49,13 +49,17 @@ const Root = () => {
 
     return (
         <div>
-            <ForceDirectedGraph
+            <HamiltonianGraph
                 drag={true}
-                links={link}
-                nodes={node}
-                alphaDecay={0.01}
-                animationDelay={10}
+                height={700}
+                width={1400}
+                linkFactor={10}
+                noOfNode={50}
+                alphaDecay={0}
+                animationDelay={100}
                 animationStart={0}
+                strength={0.4}
+                distance={10}
             />
         </div>)
 }
