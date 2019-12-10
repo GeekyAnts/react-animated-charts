@@ -9,6 +9,8 @@ Install the package using npm:
 
 ## Force-Directed Graph
 
+![alt text](https://drive.google.com/open?id=1xm9GG4x0UbIeOzikyVLniVm_ohwPnJ3q)
+
 ```
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
 ```
