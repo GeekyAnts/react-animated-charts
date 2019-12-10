@@ -1,4 +1,15 @@
-src
+src/animation/
+src/components/
+src/screens/
+src/utils/
+src/App.js
+src/App.test.js
+src/index.js
+src/serviceWorker.js
+
+src/BubbleChart/
+src/ForcedGraph/
+
 public
 node_modules
 .gitignore
