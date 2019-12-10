@@ -2,16 +2,22 @@
 
 ## Install
 
-Install the component using NPM:
+Install the package using npm:
 
-### `npm i animated-web`
+### `npm i react-animated-web`
 
 
 ## Force-Directed Graph
 
-```npm i animated-web
-dvbjksb v
-vcew,bv ,
-v ,ms`
+`<ForceDirectedGraph
+    drag={true}
+    links={link}
+    nodes={node}
+    alphaDecay={0.01}
+    animationDelay={10}
+    animationStart={0}
+/>`
+
+
 evnbk
 evewv
