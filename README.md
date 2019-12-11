@@ -28,6 +28,13 @@ import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
 />
 ```
 
+### Note
+
+```javascript
+const node = [{tag: "_name",id: "_id"}...]
+const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
+```
+
 
 ## Hamiltonian Graph
 
@@ -55,4 +62,31 @@ import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
 ```javascript
 const node = [{tag: "_name",id: "_id"}...]
 const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
+```
+
+
+## Bubble Chart
+
+![](./src/assets/Images/BubbleChart.png)
+
+```javascript
+import { BubbleChart } from "react-animated-web"; // ES6 Syntax
+
+<BubbleChart
+    height={500}                // Height of Graph (Number)
+    width={500}                 // Width of Graph (Number)
+    tooltipSize={10}            // Tooltip text Size (Number)
+    tooltipColor={'black'}      // Tooltip text Color (String)
+    tooltipFont={"sans-serif"}  // Tooltip text Font (String)
+    chartData={[]}              // Chart Data (Array)
+    colourSet={[]}              // Chart Colour set (Array)
+    fillOpacity={0.7}           // Fill Opacity (Number Range - [0,1])
+/>
+```
+
+### Note
+
+```javascript
+const chartData = [{ name: "_name", group: "_group", value: _value }...]
+const colourSet = ['#000','balck',...]
 ```

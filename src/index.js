@@ -12,3 +12,4 @@
 
 export { default as HamiltonianGraph } from './ForcedGraph/HamiltonianGraph.js';
 export { default as ForceDirectedGraph } from './ForcedGraph/ForceDirectedGraph.js';
+export { default as BubbleChart } from "./BubbleChart/BubbleChart";
