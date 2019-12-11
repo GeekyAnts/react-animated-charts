@@ -3,4 +3,3 @@ public
 node_modules
 .gitignore
 babel.config.js
-.env
