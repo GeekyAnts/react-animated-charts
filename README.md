@@ -9,7 +9,7 @@ Install the package using npm:
 
 ## Force-Directed Graph
 
-![](./src/assets/Images/FDGraph.gif)
+![](./Images/FDGraph.gif)
 
 ```javascript
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
@@ -38,7 +38,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 
 ## Hamiltonian Graph
 
-![](./src/assets/Images/HGraph.gif)
+![](./Images/HGraph.gif)
 
 ```javascript
 import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
@@ -67,7 +67,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 
 ## Bubble Chart
 
-![](./src/assets/Images/BubbleChart.png)
+![](./Images/BubbleChart.png)
 
 ```javascript
 import { BubbleChart } from "react-animated-web"; // ES6 Syntax
