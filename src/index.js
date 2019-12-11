@@ -10,6 +10,6 @@
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 
-export { default as HamiltonianGraph } from './ForcedGraph/HamiltonianGraph.js';
-export { default as ForceDirectedGraph } from './ForcedGraph/ForceDirectedGraph.js';
-export { default as BubbleChart } from "./BubbleChart/BubbleChart";
+// export { default as HamiltonianGraph } from './ForcedGraph/HamiltonianGraph.js';
+// export { default as ForceDirectedGraph } from './ForcedGraph/ForceDirectedGraph.js';
+// export { default as BubbleChart } from "./BubbleChart/BubbleChart";
