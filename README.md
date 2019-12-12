@@ -70,7 +70,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 ![](https://github.com/code-ayush/animated-web-readMe/blob/master/CircleFlow.gif)
 
 ```javascript
-import { BubbleChart } from "react-animated-web"; // ES6 Syntax
+import { CircleFlow } from "react-animated-web"; // ES6 Syntax
 
 <CircleFlow
     height={500}                // Height of Graph (Number)
