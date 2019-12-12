@@ -65,6 +65,23 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 ```
 
 
+## Circle Flow Animation
+
+![](https://github.com/code-ayush/animated-web-readMe/blob/master/CircleFlow.gif)
+
+```javascript
+import { BubbleChart } from "react-animated-web"; // ES6 Syntax
+
+<CircleFlow
+    height={500}                // Height of Graph (Number)
+    width={500}                 // Width of Graph (Number)
+    backgroundColor={'black'}   // Background Color (String)
+    duration={2000}             // Animation Duration (Time in ms - Number)
+    radius={100}                // Circle Radius (Number)
+/>
+```
+
+
 ## Bubble Chart
 
 ![](https://github.com/code-ayush/animated-web-readMe/blob/master/BubbleChart.png)
