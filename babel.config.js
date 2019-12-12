@@ -4,7 +4,7 @@ module.exports = function (api) {
     const presets = ["@babel/preset-env"];
     const plugins = [
         "transform-object-rest-spread",
-        "transform-react-jsx"
+        "@babel/plugin-transform-react-jsx"
     ];
 
     return {
