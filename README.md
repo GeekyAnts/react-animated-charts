@@ -82,6 +82,25 @@ import { CircleFlow } from "react-animated-web"; // ES6 Syntax
 ```
 
 
+## Circle Animation
+
+![](https://github.com/code-ayush/animated-web-readMe/blob/master/CircleAnimation.gif)
+
+```javascript
+import { CircleAnimation } from "react-animated-web"; // ES6 Syntax
+
+<CircleAnimation
+    height={500}                // Height of Graph (Number)
+    width={500}                 // Width of Graph (Number)
+    backgroundColor={'black'}   // Background Color (String)
+    duration={2000}             // Animation Duration (Time in ms - Number)
+    radius={100}                // Circle Radius (Number)
+    xIndex={100}                // Center x-coordinate of Circle (Number)
+    yIndex={100}                // Center y-coordinate of Circle (Number)
+/>
+```
+
+
 ## Bubble Chart
 
 ![](https://github.com/code-ayush/animated-web-readMe/blob/master/BubbleChart.png)
