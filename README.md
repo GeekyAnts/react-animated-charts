@@ -25,16 +25,20 @@ Give Feedback or Report Issues on GitHub:
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
 
 <ForceDirectedGraph
-    drag={true}         // Enables Mouse Drag (true/false)
-    nodes={node}        // Graph Nodes (Array of Object)
-    links={link}        // Graph Links (Array of Object)
-    alphaDecay={0.01}   // Alpha Decay (Number Range - [0,1])
-    animationDelay={10} // Animation Delay Time (Time in `ms`)
-    animationStart={0}  // Animation Start time (Time in `ms`)
-    height={500}        // Height of Graph (Number)
-    width={500}         // Width of Graph (Number)
-    strength={0.4}      // Strength of Graph (Number Range - [0,1])
-    distance={10}       // Distance between each node (Number)
+    drag={true}                 // Enables Mouse Drag (true/false)
+    nodes={node}                // Graph Nodes (Array of Object)
+    links={link}                // Graph Links (Array of Object)
+    alphaDecay={0.01}           // Alpha Decay (Number Range - [0,1])
+    animationDelay={10}         // Animation Delay Time (Time in `ms`)
+    animationStart={0}          // Animation Start time (Time in `ms`)
+    height={500}                // Height of Graph (Number)
+    width={500}                 // Width of Graph (Number)
+    strength={0.4}              // Strength of Graph (Number Range - [0,1])
+    distance={10}               // Distance between each node (Number)
+    nodeRadius={3}              // Radius of each node (Number)
+    nodeColour={'#121212'}      // Colour of Nodes (String)
+    linkStroke={'#cdcdcd'}      // Colour of Links (String)
+    linkOpacity={1}             // Opacity of Links (Number Range - [0,1])
 />
 ```
 
@@ -54,25 +58,27 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
 
 <HamiltonianGraph
-    drag={true}         // Enable Mouse Drag (true/false)
-    noOfNode={50}       // Graph Nodes (Number)
-    linkFactor={10}     // Graph Links (Number)
-    alphaDecay={0.01}   // Alpha Decay (Number Range - [0,1])
-    animationDelay={10} // Animation Delay Time (Time in `ms`)
-    animationStart={0}  // Animation Start time (Time in `ms`)
-    height={500}        // Height of Graph (Number)
-    width={500}         // Width of Graph (Number)
-    strength={0.4}      // Strength of Graph (Number Range - [0,1])
-    distance={10}       // Distance between each node (Number)
+    drag={true}                 // Enable Mouse Drag (true/false)
+    noOfNode={50}               // Graph Nodes (Number)
+    linkFactor={10}             // Graph Links (Number)
+    alphaDecay={0.01}           // Alpha Decay (Number Range - [0,1])
+    animationDelay={10}         // Animation Delay Time (Time in `ms`)
+    velocityDecay={0.1}         // Velocity Decay (Number Range - [0,1])
+    animationStart={0}          // Animation Start time (Time in `ms`)
+    height={500}                // Height of Graph (Number)
+    width={500}                 // Width of Graph (Number)
+    strength={0.4}              // Strength of Graph (Number Range - [0,1])
+    distance={10}               // Distance between each node (Number)
+    zIndex={0}                  // Z-Index for Graph (Number)
+    nodeRadius={3}              // Radius of each node (Number)
+    nodeColour={'#121212'}      // Colour of Nodes (String)
+    linkStroke={'#cdcdcd'}      // Colour of Links (String)
+    linkOpacity={1}             // Opacity of Links (Number Range - [0,1])
+    colorAnimation={false}      // Colour Animation (true/false)
+    clrAnimationCenter={250}    // Animation Center (Number)
+    linkAniClr={'#fff'}         // Second Link Colour for Animation (String)
+    nodeAniClr={'#fff'}         // Second Node Colour for Animation (String)
 />
-```
-
-### Note
-
-```javascript
-const node = [{tag: "_name",id: "_id"}...]
-const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
-```
 
 
 ## Circle Flow Animation
