@@ -90,7 +90,7 @@ import { CircleFlow } from "react-animated-web"; // ES6 Syntax
 
 ## Circle Animation
 
-![Circle Animation](https://res.cloudinary.com/dclpozjga/image/upload/v1576485086/CircleAnimation_waqb1t.gif)
+![Circle Animation](https://res.cloudinary.com/dclpozjga/image/upload/v1576485348/CircleAnimation_yv5kij.gif)
 
 ```javascript
 import { CircleAnimation } from "react-animated-web"; // ES6 Syntax
