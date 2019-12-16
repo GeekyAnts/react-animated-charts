@@ -79,6 +79,7 @@ import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
     linkAniClr={'#fff'}         // Second Link Colour for Animation (String)
     nodeAniClr={'#fff'}         // Second Node Colour for Animation (String)
 />
+```
 
 
 ## Circle Flow Animation
