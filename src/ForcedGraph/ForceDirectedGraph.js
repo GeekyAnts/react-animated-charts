@@ -124,8 +124,8 @@ const ForceDirectedGraph = props => {
 
 ForceDirectedGraph.propTypes = {
     drag: PropTypes.bool,
-    height: PropTypes.number,
-    width: PropTypes.number,
+    height: PropTypes.any,
+    width: PropTypes.any,
     links: PropTypes.array,
     nodes: PropTypes.array,
     alphaDecay: PropTypes.number,

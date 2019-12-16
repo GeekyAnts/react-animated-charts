@@ -16,13 +16,11 @@ const CircleFlow = props => {
     } = props;
 
     useEffect(() => {
-        const canvas = d3.select(diva.current)
-            .attr("width", width)
-            .attr("height", height)
-            .style('background', backgroundColor);
+        const canvas = d3.select(diva.current);
         const svg = canvas.append('svg')
             .attr("width", width)
             .attr("height", height)
+            .style('background', backgroundColor);
 
         svg.append("rect")
             .attr("width", width)

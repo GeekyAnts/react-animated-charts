@@ -154,8 +154,8 @@ const HamiltonianGraph = props => {
 
 HamiltonianGraph.propTypes = {
     drag: PropTypes.bool,
-    height: PropTypes.number,
-    width: PropTypes.number,
+    height: PropTypes.any,
+    width: PropTypes.any,
     linkFactor: PropTypes.number,
     noOfNode: PropTypes.number,
     alphaDecay: PropTypes.number,

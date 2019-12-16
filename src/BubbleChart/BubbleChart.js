@@ -36,7 +36,8 @@ const BubbleChart = props => {
 
         const canvas = d3.select(diva.current);
         const svg = canvas.append('svg')
-            .attr("viewBox", [0, 0, width, height])
+            .attr("width", width)
+            .attr("height", height)
             .attr("font-size", tooltipSize)
             .attr("font-family", tooltipFont)
             .attr('fill', tooltipColor)
@@ -61,7 +62,7 @@ const BubbleChart = props => {
             .attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`)
             .text(d => d);
     })
-    return (<div ref={diva} width={width} height={height} />);
+    return (<div ref={diva} />);
 }
 
 BubbleChart.propTypes = {

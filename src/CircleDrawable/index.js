@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import * as d3 from 'd3';
 import data from "./data.json.js"
-// const temperatureData = [8, 9, 101, 11, 11]
 
 const CircleDrawable = () => {
     const diva = useRef(null);
