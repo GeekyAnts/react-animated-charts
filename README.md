@@ -8,7 +8,7 @@ Install the package using npm:
 
 Give Feedback or Report Issues on GitHub:
 
-### `https://github.com/code-ayush/animated-web`
+### [`github.com/code-ayush/animated-web`](https://github.com/code-ayush/animated-web)
 
 
 ## Example Animation
