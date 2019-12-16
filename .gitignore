@@ -22,6 +22,19 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/src
 .env
 .npmignore
+
+#Example
+
+# dependencies
+/example/node_modules
+/example/.pnp
+/example/.pnp.js
+
+# testing
+/example/coverage
+
+# production
+/example/build
+
