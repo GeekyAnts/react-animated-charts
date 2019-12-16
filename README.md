@@ -9,7 +9,7 @@ Install the package using npm:
 
 ## Example Animation
 
-![](https://res.cloudinary.com/dclpozjga/image/upload/v1576483532/example_wqpzrv.gif)
+![Example](https://res.cloudinary.com/dclpozjga/image/upload/v1576484657/example_emgvfv.gif)
 
 
 
