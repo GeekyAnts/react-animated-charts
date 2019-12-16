@@ -6,6 +6,10 @@ Install the package using npm:
 
 ### `npm i react-animated-web`
 
+Give Feedback or Report Issues on GitHub:
+
+### `https://github.com/code-ayush/animated-web`
+
 
 ## Example Animation
 
