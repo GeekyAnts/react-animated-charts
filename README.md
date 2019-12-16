@@ -9,13 +9,13 @@ Install the package using npm:
 
 ## Example Animation
 
-![](https://github.com/code-ayush/animated-web/blob/master/Images/example.gif)
+![](https://res.cloudinary.com/dclpozjga/image/upload/v1576483532/example_wqpzrv.gif)
 
 
 
 ## Force-Directed Graph
 
-![](https://github.com/code-ayush/animated-web/blob/master/Images/FDGraph.gif)
+![](https://res.cloudinary.com/dclpozjga/image/upload/v1576483531/FDGraph_gicaec.gif)
 
 ```javascript
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
@@ -44,7 +44,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 
 ## Hamiltonian Graph
 
-![](https://github.com/code-ayush/animated-web/blob/master/Images/HGraph.gif)
+![](https://res.cloudinary.com/dclpozjga/image/upload/v1576483530/HGraph_snzoxl.gif)
 
 ```javascript
 import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
@@ -73,7 +73,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 
 ## Circle Flow Animation
 
-![](https://github.com/code-ayush/animated-web/blob/master/Images/CircleFlow.gif)
+![](https://res.cloudinary.com/dclpozjga/image/upload/v1576483531/CircleFlow_qfcdhs.gif)
 
 ```javascript
 import { CircleFlow } from "react-animated-web"; // ES6 Syntax
@@ -90,7 +90,7 @@ import { CircleFlow } from "react-animated-web"; // ES6 Syntax
 
 ## Circle Animation
 
-![](https://github.com/code-ayush/animated-web/blob/master/Images/CircleAnimation.gif)
+![](https://res.cloudinary.com/dclpozjga/image/upload/v1576484323/CircleAnimation_pllwqq.gif)
 
 ```javascript
 import { CircleAnimation } from "react-animated-web"; // ES6 Syntax
@@ -109,7 +109,7 @@ import { CircleAnimation } from "react-animated-web"; // ES6 Syntax
 
 ## Bubble Chart
 
-![](https://github.com/code-ayush/animated-web/blob/master/Images/BubbleChart.png)
+![](https://res.cloudinary.com/dclpozjga/image/upload/v1576483529/BubbleChart_yhwtgo.png)
 
 ```javascript
 import { BubbleChart } from "react-animated-web"; // ES6 Syntax
