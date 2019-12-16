@@ -9,15 +9,12 @@ const { innerWidth: widthW, innerHeight: heightW } = window;
 const Root = () => {
     return (
         <div>
-            <BubbleChart
-                height={700}                // Height of Graph (Number)
-                width={700}                 // Width of Graph (Number)
-                tooltipSize={10}            // Tooltip text Size (Number)
-                tooltipColor={'black'}      // Tooltip text Color (String)
-                tooltipFont={"sans-serif"}  // Tooltip text Font (String)
-                // chartData={[]}              // Chart Data (Array)
-                // colourSet={[]}              // Chart Colour set (Array)
-                fillOpacity={0.7}           // Fill Opacity (Number Range - [0,1])
+            <CircleFlow
+                height={600}                // Height of Graph (Number)
+                width={500}                 // Width of Graph (Number)
+                backgroundColor={'black'}   // Background Color (String)
+                duration={2000}             // Animation Duration (Time in ms - Number)
+                radius={100}                // Circle Radius (Number)
             />
         </div>)
 }
