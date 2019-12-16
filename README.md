@@ -7,9 +7,15 @@ Install the package using npm:
 ### `npm i react-animated-web`
 
 
+## Example Animation
+
+![](https://github.com/code-ayush/animated-web/blob/master/Images/example.gif)
+
+
+
 ## Force-Directed Graph
 
-![](https://github.com/code-ayush/animated-web-readMe/blob/master/FDGraph.gif)
+![](https://github.com/code-ayush/animated-web/blob/master/Images/FDGraph.gif)
 
 ```javascript
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
@@ -38,7 +44,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 
 ## Hamiltonian Graph
 
-![](https://github.com/code-ayush/animated-web-readMe/blob/master/HGraph.gif)
+![](https://github.com/code-ayush/animated-web/blob/master/Images/HGraph.gif)
 
 ```javascript
 import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
@@ -67,7 +73,7 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 
 ## Circle Flow Animation
 
-![](https://github.com/code-ayush/animated-web-readMe/blob/master/CircleFlow.gif)
+![](https://github.com/code-ayush/animated-web/blob/master/Images/CircleFlow.gif)
 
 ```javascript
 import { CircleFlow } from "react-animated-web"; // ES6 Syntax
@@ -84,7 +90,7 @@ import { CircleFlow } from "react-animated-web"; // ES6 Syntax
 
 ## Circle Animation
 
-![](https://github.com/code-ayush/animated-web-readMe/blob/master/CircleAnimation.gif)
+![](https://github.com/code-ayush/animated-web/blob/master/Images/CircleAnimation.gif)
 
 ```javascript
 import { CircleAnimation } from "react-animated-web"; // ES6 Syntax
@@ -103,7 +109,7 @@ import { CircleAnimation } from "react-animated-web"; // ES6 Syntax
 
 ## Bubble Chart
 
-![](https://github.com/code-ayush/animated-web-readMe/blob/master/BubbleChart.png)
+![](https://github.com/code-ayush/animated-web/blob/master/Images/BubbleChart.png)
 
 ```javascript
 import { BubbleChart } from "react-animated-web"; // ES6 Syntax
