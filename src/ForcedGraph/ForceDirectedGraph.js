@@ -24,7 +24,9 @@ const ForceDirectedGraph = props => {
         nodeRadius,
         nodeColour,
         linkStroke,
-        linkOpacity
+        linkOpacity,
+        toolTip,
+        toolTipClass
     } = props
 
     const graph = {
@@ -41,6 +43,18 @@ const ForceDirectedGraph = props => {
 
         const svg = canvas.append("svg")
             .attr("viewBox", [0, 0, width, height]);
+
+        const tt = canvas.append("div")
+            .style("opacity", 0)
+            .style("pointer-events", 'none')
+            .style('padding', '8px')
+            .style('color', '#fff')
+            .style('font-family', 'sans-serif')
+            .style('font-size', '12px')
+            .style('background-color', "#121212")
+            .style('position', 'absolute')
+            .style('border-radius', '3px')
+            .style('class', toolTipClass);
 
         const dragStarted = () => {
             if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -97,6 +111,18 @@ const ForceDirectedGraph = props => {
 
             node.attr("cx", d => d.x)
                 .attr("cy", d => d.y);
+            toolTip && node.on("mouseover", function (d) {
+                tt.transition()
+                    .duration(200)
+                    .style("opacity", 0.9);
+                tt.html(d.tag + " (" + d.id + ")")
+                    .style("left", (d3.event.pageX + 5) + "px")
+                    .style("top", (d3.event.pageY - 20) + "px");
+            }).on("mouseout", function (d) {
+                tt.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+            });
         }
 
         simulation
@@ -136,11 +162,13 @@ ForceDirectedGraph.propTypes = {
     nodeRadius: PropTypes.number,
     nodeColour: PropTypes.string,
     linkStroke: PropTypes.number,
-    linkOpacity: PropTypes.number
+    linkOpacity: PropTypes.number,
+    toolTip: PropTypes.bool,
+    toolTipClass: PropTypes.any
 };
 
 ForceDirectedGraph.defaultProps = {
-    drag: false,
+    drag: true,
     height: heightW,
     width: widthW,
     links: linkTest,
@@ -153,7 +181,9 @@ ForceDirectedGraph.defaultProps = {
     nodeRadius: 3,
     nodeColour: '#121212',
     linkStroke: '#cdcdcd',
-    linkOpacity: 1
+    linkOpacity: 1,
+    toolTip: true,
+    toolTipClass: {}
 };
 
 export default ForceDirectedGraph;

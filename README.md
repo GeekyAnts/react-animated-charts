@@ -39,6 +39,7 @@ import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
     nodeColour={'#121212'}      // Colour of Nodes (String)
     linkStroke={'#cdcdcd'}      // Colour of Links (String)
     linkOpacity={1}             // Opacity of Links (Number Range - [0,1])
+    toolTip={true}              // Enables ToolTip (true/false)
 />
 ```
 
@@ -78,6 +79,8 @@ import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
     clrAnimationCenter={250}    // Animation Center (Number)
     linkAniClr={'#fff'}         // Second Link Colour for Animation (String)
     nodeAniClr={'#fff'}         // Second Node Colour for Animation (String)
+    dragEventCallBack={function}// Drag Event CallBack Function (Function)
+    alphaMin={1}                // Alpha Min (Number Range - [0,1])
 />
 ```
 

@@ -28,7 +28,9 @@ const HamiltonianGraph = props => {
         linkAniClr,
         nodeAniClr,
         linkOpacity,
-        velocityDecay
+        velocityDecay,
+        dragEventCallBack,
+        alphaMin
     } = props;
 
     let nodes = [];
@@ -53,30 +55,9 @@ const HamiltonianGraph = props => {
         const svg = canvas.append("svg")
             .attr("viewBox", [0, 0, width, height]);
 
-        const dragStarted = () => {
-            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-            d3.event.subject.fx = d3.event.subject.x;
-            d3.event.subject.fy = d3.event.subject.y;
-        }
-
-        const dragged = () => {
-            d3.event.subject.fx = d3.event.x;
-            d3.event.subject.fy = d3.event.y;
-        }
-
-        const dragEnded = () => {
-            if (!d3.event.active) simulation.alphaTarget(0);
-            d3.event.subject.fx = null;
-            d3.event.subject.fy = null;
-        }
-
-        const dragSubject = () => {
-            return simulation.find(d3.event.x, d3.event.y);
-        }
-
         const simulation = d3.forceSimulation()
             .alphaDecay(alphaDecay)
-            .alphaMin(1)
+            .alphaMin(alphaMin)
             .alphaTarget(0)
             .velocityDecay(velocityDecay)
             .force("charge", d3.forceManyBody())
@@ -141,6 +122,28 @@ const HamiltonianGraph = props => {
                 .links(linkArray);
         }, animationDelay, d3.now() + animationStart);
 
+        const dragStarted = () => {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+            d3.event.subject.fx = d3.event.subject.x;
+            d3.event.subject.fy = d3.event.subject.y;
+        }
+
+        const dragged = () => {
+            d3.event.subject.fx = d3.event.x;
+            d3.event.subject.fy = d3.event.y;
+        }
+
+        const dragEnded = () => {
+            if (!d3.event.active) simulation.alphaTarget(0);
+            dragEventCallBack(d3.event)
+            d3.event.subject.fx = null;
+            d3.event.subject.fy = null;
+        }
+
+        const dragSubject = () => {
+            return simulation.find(d3.event.x, d3.event.y);
+        }
+
         drag && canvas.call(d3.drag()
             .subject(dragSubject)
             .on("start", dragStarted)
@@ -172,11 +175,13 @@ HamiltonianGraph.propTypes = {
     linkAniClr: PropTypes.string,
     nodeAniClr: PropTypes.string,
     linkOpacity: PropTypes.number,
-    velocityDecay: PropTypes.number
+    velocityDecay: PropTypes.number,
+    dragEventCallBack: PropTypes.func,
+    alphaMin: PropTypes.number,
 };
 
 HamiltonianGraph.defaultProps = {
-    drag: false,
+    drag: true,
     height: heightW,
     width: widthW,
     linkFactor: 10,
@@ -195,7 +200,9 @@ HamiltonianGraph.defaultProps = {
     linkAniClr: '#fff',
     nodeAniClr: '#fff',
     linkOpacity: 1,
-    velocityDecay: 0.1
+    velocityDecay: 0.5,
+    dragEventCallBack: function () { return; },
+    alphaMin: 1
 };
 
 export default HamiltonianGraph;
