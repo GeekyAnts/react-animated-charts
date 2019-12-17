@@ -1,6 +1,6 @@
 {
   "name": "react-animated-web",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "React animated chart library by using D3.js",
   "main": "build/index.js",
   "peerDependencies": {
