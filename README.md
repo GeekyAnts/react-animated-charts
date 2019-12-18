@@ -13,7 +13,7 @@ Give Feedback or Report Issues on GitHub:
 
 ## Example Animation
 
-![Example](https://res.cloudinary.com/dclpozjga/image/upload/v1576484657/example_emgvfv.gif)
+![Example](https://res.cloudinary.com/dclpozjga/image/upload/v1576670946/ExampleMain_oxiqlz.gif)
 
 
 
@@ -54,6 +54,8 @@ const link = [{target: "_targetIndex", source: "_sourceIndex"}...]
 ## Hamiltonian Graph
 
 ![Hamiltonian Graph](https://res.cloudinary.com/dclpozjga/image/upload/v1576483530/HGraph_snzoxl.gif)
+
+![Example](https://res.cloudinary.com/dclpozjga/image/upload/v1576484657/example_emgvfv.gif)
 
 ```javascript
 import { HamiltonianGraph } from "react-animated-web"; // ES6 Syntax
