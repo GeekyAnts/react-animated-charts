@@ -1,5 +1,7 @@
 ## React Animated Charts
 
+React animated chart library by using D3.js
+
 ## Install
 
 Install the package using npm:
