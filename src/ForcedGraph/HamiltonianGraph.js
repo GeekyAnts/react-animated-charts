@@ -141,7 +141,6 @@ const HamiltonianGraph = props => {
         }
 
         const dragSubject = () => {
-            console.log(d3.event.x, d3.event.y)
             return simulation.find(d3.event.x, d3.event.y, nodeRadius + 10);
         }
 
