@@ -74,7 +74,7 @@ const ForceDirectedGraph = props => {
         }
 
         const dragSubject = () => {
-            return simulation.find(d3.event.x, d3.event.y);
+            return simulation.find(d3.event.x, d3.event.y, nodeRadius + 10);
         }
 
 
@@ -161,7 +161,7 @@ ForceDirectedGraph.propTypes = {
     distance: PropTypes.number,
     nodeRadius: PropTypes.number,
     nodeColour: PropTypes.string,
-    linkStroke: PropTypes.number,
+    linkStroke: PropTypes.string,
     linkOpacity: PropTypes.number,
     toolTip: PropTypes.bool,
     toolTipClass: PropTypes.any

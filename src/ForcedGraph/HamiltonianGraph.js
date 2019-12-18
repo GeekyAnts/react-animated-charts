@@ -135,13 +135,14 @@ const HamiltonianGraph = props => {
 
         const dragEnded = () => {
             if (!d3.event.active) simulation.alphaTarget(0);
-            dragEventCallBack(d3.event)
+            dragEventCallBack(d3.event, simulation);
             d3.event.subject.fx = null;
             d3.event.subject.fy = null;
         }
 
         const dragSubject = () => {
-            return simulation.find(d3.event.x, d3.event.y);
+            console.log(d3.event.x, d3.event.y)
+            return simulation.find(d3.event.x, d3.event.y, nodeRadius + 10);
         }
 
         drag && canvas.call(d3.drag()
@@ -169,7 +170,7 @@ HamiltonianGraph.propTypes = {
     zIndex: PropTypes.number,
     nodeRadius: PropTypes.number,
     nodeColour: PropTypes.string,
-    linkStroke: PropTypes.number,
+    linkStroke: PropTypes.string,
     clrAnimationCenter: PropTypes.number,
     colorAnimation: PropTypes.bool,
     linkAniClr: PropTypes.string,
