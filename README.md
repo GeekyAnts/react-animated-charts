@@ -19,7 +19,7 @@ Give Feedback or Report Issues on GitHub:
 
 ## Force-Directed Graph
 
-![Force-Directed Graph](https://res.cloudinary.com/dclpozjga/image/upload/v1576647568/FDGraph_khsgru.gif)
+![Force-Directed Graph](https://res.cloudinary.com/dclpozjga/image/upload/v1576649639/FDGraph_khsgru_jurwvc.gif)
 
 ```javascript
 import { ForceDirectedGraph } from "react-animated-web"; // ES6 Syntax
