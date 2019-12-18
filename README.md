@@ -13,7 +13,7 @@ Give Feedback or Report Issues on GitHub:
 
 ## Example Animation
 
-![Example](https://res.cloudinary.com/dclpozjga/image/upload/v1576670946/ExampleMain_oxiqlz.gif)
+![Example](https://res.cloudinary.com/dclpozjga/image/upload/v1576671197/ExampleMain_iec9vf.gif)
 
 
 
