@@ -1613,9 +1613,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.4.0"
@@ -8545,10 +8545,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animated-web@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.22.tgz#4ab48ad528a7b0ee3f28f977be55e0e3fd7c72d7"
-  integrity sha512-JDa7n7eRKWUi7NlEBgZuVM69EoM8QcynMua1Pm/VYrho6M19ua62BrzlvjD11ZllyZ2l3sPcLwcJqCbQ3FRs6w==
+react-animated-web@^1.0.26:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.34.tgz#64a9c39ce45ed22588c966be9d5f846df49e4a6d"
+  integrity sha512-yWmF2yCMhnISPknZtQRXG4skaC+bHgLdRd7OfSRYDuyXdK4uL0okzszcrUNNjfFrQvoBo31DlucwVyKdLM9Tuw==
   dependencies:
     d3 "^5.14.2"
 
