@@ -4955,9 +4955,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -8545,10 +8545,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animated-web@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.22.tgz#4ab48ad528a7b0ee3f28f977be55e0e3fd7c72d7"
-  integrity sha512-JDa7n7eRKWUi7NlEBgZuVM69EoM8QcynMua1Pm/VYrho6M19ua62BrzlvjD11ZllyZ2l3sPcLwcJqCbQ3FRs6w==
+react-animated-web@^1.0.26:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.34.tgz#64a9c39ce45ed22588c966be9d5f846df49e4a6d"
+  integrity sha512-yWmF2yCMhnISPknZtQRXG4skaC+bHgLdRd7OfSRYDuyXdK4uL0okzszcrUNNjfFrQvoBo31DlucwVyKdLM9Tuw==
   dependencies:
     d3 "^5.14.2"
 
