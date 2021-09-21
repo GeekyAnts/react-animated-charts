@@ -8545,10 +8545,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animated-web@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.22.tgz#4ab48ad528a7b0ee3f28f977be55e0e3fd7c72d7"
-  integrity sha512-JDa7n7eRKWUi7NlEBgZuVM69EoM8QcynMua1Pm/VYrho6M19ua62BrzlvjD11ZllyZ2l3sPcLwcJqCbQ3FRs6w==
+react-animated-web@^1.0.26:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.34.tgz#64a9c39ce45ed22588c966be9d5f846df49e4a6d"
+  integrity sha512-yWmF2yCMhnISPknZtQRXG4skaC+bHgLdRd7OfSRYDuyXdK4uL0okzszcrUNNjfFrQvoBo31DlucwVyKdLM9Tuw==
   dependencies:
     d3 "^5.14.2"
 
@@ -9981,9 +9981,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
