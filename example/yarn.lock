@@ -3497,9 +3497,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -8545,10 +8545,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animated-web@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.22.tgz#4ab48ad528a7b0ee3f28f977be55e0e3fd7c72d7"
-  integrity sha512-JDa7n7eRKWUi7NlEBgZuVM69EoM8QcynMua1Pm/VYrho6M19ua62BrzlvjD11ZllyZ2l3sPcLwcJqCbQ3FRs6w==
+react-animated-web@^1.0.26:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.34.tgz#64a9c39ce45ed22588c966be9d5f846df49e4a6d"
+  integrity sha512-yWmF2yCMhnISPknZtQRXG4skaC+bHgLdRd7OfSRYDuyXdK4uL0okzszcrUNNjfFrQvoBo31DlucwVyKdLM9Tuw==
   dependencies:
     d3 "^5.14.2"
 
