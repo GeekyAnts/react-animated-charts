@@ -8471,9 +8471,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -8545,10 +8545,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-animated-web@^1.0.22:
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.22.tgz#4ab48ad528a7b0ee3f28f977be55e0e3fd7c72d7"
-  integrity sha512-JDa7n7eRKWUi7NlEBgZuVM69EoM8QcynMua1Pm/VYrho6M19ua62BrzlvjD11ZllyZ2l3sPcLwcJqCbQ3FRs6w==
+react-animated-web@^1.0.26:
+  version "1.0.34"
+  resolved "https://registry.yarnpkg.com/react-animated-web/-/react-animated-web-1.0.34.tgz#64a9c39ce45ed22588c966be9d5f846df49e4a6d"
+  integrity sha512-yWmF2yCMhnISPknZtQRXG4skaC+bHgLdRd7OfSRYDuyXdK4uL0okzszcrUNNjfFrQvoBo31DlucwVyKdLM9Tuw==
   dependencies:
     d3 "^5.14.2"
 
